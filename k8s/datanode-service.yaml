@@ -6,14 +6,14 @@ metadata:
     kompose.version: 1.28.0 (HEAD)
   creationTimestamp: null
   labels:
-    io.kompose.service: datanode1
-  name: datanode1
+    io.kompose.service: datanode
+  name: datanode
 spec:
   ports:
     - name: "9864"
       port: 9864
       targetPort: 9864
   selector:
-    io.kompose.service: datanode1
+    io.kompose.service: datanode
 status:
   loadBalancer: {}
