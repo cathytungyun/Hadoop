@@ -3,8 +3,8 @@ kind: PersistentVolumeClaim
 metadata:
   creationTimestamp: null
   labels:
-    io.kompose.service: hadoop-datanode1
-  name: hadoop-datanode1
+    io.kompose.service: hadoop-datanode
+  name: hadoop-datanode
 spec:
   accessModes:
     - ReadWriteOnce
