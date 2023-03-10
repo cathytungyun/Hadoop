@@ -240,7 +240,7 @@ spec:
           name: namenode
           ports:
             - containerPort: 9870
-            - containerPort: 9000
+#             - containerPort: 9000
           resources: {}
           volumeMounts:
             - mountPath: /hadoop/dfs/name
